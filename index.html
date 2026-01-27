@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mikel Barajas - Blog Personal</title>
+  <meta name="description" content="Blog personal de Mikel Barajas. Comparto mi trayectoria, proyectos, empresa y experiencias en tecnología, ciberseguridad y libertad financiera.">
+  <link rel="icon" type="image/png" href="Img/favicon/LogoPersonal.png">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="blog-header">
+    <div class="container">
+      <nav class="blog-nav">
+        <div class="nav-logo">
+          <a href="index.html">
+            <img src="Img/Logo/LogoPersonal.png" alt="Mikel Barajas">
+          </a>
+        </div>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="sobre-mi.html">Blog</a></li>
+          <li><a href="proyectos.html">Proyectos</a></li>
+          <li><a href="formacion.html">Formación</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="blog-hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-image">
+          <img src="Img/Foto mia/1715684131009.jpg" alt="Mikel Barajas">
+        </div>
+        <div class="hero-text">
+          <h1 class="hero-title">Hola, soy Mikel 👋</h1>
+          <p class="hero-subtitle">Técnico en Sistemas Informáticos, emprendedor y apasionado por la libertad financiera</p>
+          <p class="hero-description">
+            Desde Portugalete, Bizkaia, comparto mi camino en tecnología, los proyectos que desarrollo y la empresa que estoy construyendo. 
+            Este es mi espacio para contar historias reales sobre ciberseguridad, desarrollo web y cómo estoy trabajando hacia la libertad financiera.
+          </p>
+          <div class="hero-cta">
+            <a href="sobre-mi.html" class="btn btn-primary">Leer el Blog</a>
+            <a href="Curriculum/CV Mikel Barajas.pdf" class="btn btn-secondary" download>Descargar CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Post - Mi Historia -->
+  <section class="featured-post">
+    <div class="container">
+      <article class="post-card featured">
+        <div class="post-image">
+          <div class="post-badge">Mi Historia</div>
+          <img src="Img\portugalete\portugalete.jpg" alt="Mi Historia">
+        </div>
+        <div class="post-content">
+          <div class="post-meta">
+            <span class="post-date">Desde 1998</span>
+            <span class="post-category">Trayectoria Personal</span>
+          </div>
+          <h2 class="post-title">De Portugalete a la Tecnología: Mi Camino</h2>
+          <p class="post-excerpt">
+            Crecí en una pequeña villa costera del País Vasco, donde aprendí los valores del trabajo duro y la perseverancia. 
+            Mi historia es la de alguien que transformó una lesión deportiva en una oportunidad para descubrir su verdadera pasión: la tecnología.
+          </p>
+          <p class="post-excerpt">
+            Desde mis primeros años desmontando juguetes para entender cómo funcionaban, hasta crear mi propia empresa Maik&Co., 
+            cada paso ha sido un aprendizaje. Te invito a conocer cómo pasé de jugar al fútbol en el Portugalete CF a especializarme 
+            en ciberseguridad y desarrollo web.
+          </p>
+          <a href="sobre-mi.html" class="post-link" target="_blank" rel="noopener">Leer mi historia completa →</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Blog Posts Grid -->
+  <section class="blog-posts">
+    <div class="container">
+      <h2 class="section-title">Últimas Entradas</h2>
+      <div class="posts-grid">
+        
+        <!-- Post: Mi Empresa -->
+        <article class="post-card">
+          <div class="post-image">
+            <div class="post-badge">Mi Empresa</div>
+            <img src="Img\Logo\Logoempresa.jpg" alt="Mi Empresa">
+          </div>
+          <div class="post-content">
+            <div class="post-meta">
+              <span class="post-date">2024 - Presente</span>
+              <span class="post-category">Emprendimiento</span>
+            </div>
+            <h3 class="post-title">Maik&Co: Conectando Profesionales y Hogares</h3>
+            <p class="post-excerpt">
+              Te cuento cómo nació la idea de crear una plataforma que conecta propietarios con profesionales verificados en toda España. 
+              Desde la identificación del problema hasta el desarrollo completo, cada decisión ha sido pensada para generar valor real.
+            </p>
+            <a href="proyectos.html" class="post-link" target="_blank" rel="noopener">Leer más →</a>
+          </div>
+        </article>
+
+        <!-- Post: Proyectos -->
+        <article class="post-card">
+          <div class="post-image">
+            <div class="post-badge">Proyectos</div>
+            <img src="Img\portugalete\iStock-510855044-2242837662.jpg" alt="Proyectos">
+          </div>
+          <div class="post-content">
+            <div class="post-meta">
+              <span class="post-date">2024</span>
+              <span class="post-category">Desarrollo</span>
+            </div>
+            <h3 class="post-title">Proyectos que Estoy Desarrollando</h3>
+            <p class="post-excerpt">
+              Desde análisis de vulnerabilidades en redes hasta automatización de tareas con Python. 
+              Comparto los proyectos técnicos en los que trabajo y las tecnologías que estoy aprendiendo.
+            </p>
+            <a href="proyectos.html" class="post-link" target="_blank" rel="noopener">Ver proyectos →</a>
+          </div>
+        </article>
+
+        <!-- Post: Libertad Financiera -->
+        <article class="post-card">
+          <div class="post-image">
+            <div class="post-badge">Libertad Financiera</div>
+            <img src="Img\portugalete\libertad-financiera-1-2612928025.jpg" alt="Libertad Financiera">
+          </div>
+          <div class="post-content">
+            <div class="post-meta">
+              <span class="post-date">2020 - Presente</span>
+              <span class="post-category">Finanzas</span>
+            </div>
+            <h3 class="post-title">Mi Camino hacia la Libertad Financiera</h3>
+            <p class="post-excerpt">
+              Crecí en un hogar donde cada euro contaba. Hoy, después de años de aprendizaje y disciplina, 
+              he logrado construir múltiples fuentes de ingresos. Te comparto las lecciones que cambiaron mi vida.
+            </p>
+            <a href="sobre-mi.html#libertad-financiera" class="post-link" target="_blank" rel="noopener">Leer más →</a>
+          </div>
+        </article>
+
+        <!-- Post: Formación -->
+        <article class="post-card">
+          <div class="post-image">
+            <div class="post-badge">Formación</div>
+            <img src="Img\portugalete\formacion.jpg" alt="Formacion">
+          </div>
+          <div class="post-content">
+            <div class="post-meta">
+              <span class="post-date">2015 - 2024</span>
+              <span class="post-category">Educación</span>
+            </div>
+            <h3 class="post-title">Mi Trayectoria Educativa</h3>
+            <p class="post-excerpt">
+              Desde Sistemas Electrotécnicos hasta Ciberseguridad. Cada curso, cada certificación, 
+              ha sido un paso más en mi desarrollo profesional. Te muestro cómo he combinado formación formal con aprendizaje autodidacta.
+            </p>
+            <a href="formacion.html" class="post-link" target="_blank" rel="noopener">Ver formación →</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about-section">
+    <div class="container">
+      <h2 class="section-title" style="text-align: center; margin-bottom: 3rem;">Sobre Mí</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            Soy una persona resiliente, ambiciosa y en constante evolución. Me apasiona la tecnología, 
+            la ciberseguridad y los proyectos digitales con impacto real. Gracias a mi actitud proactiva 
+            y mi enfoque colaborativo, sé trabajar en equipo, adaptarme y ofrecer soluciones eficaces.
+          </p>
+          <p>
+            Actualmente me dedico al desarrollo de proyectos tecnológicos reales, como Maik&Co., 
+            donde aplico todos mis conocimientos para crear soluciones que generen valor real. 
+            Mi objetivo es seguir creciendo en el sector tecnológico, aportando mi experiencia técnica 
+            y mi visión innovadora.
+          </p>
+          <div class="about-stats">
+            <div class="stat-item">
+              <span class="stat-number">26</span>
+              <span class="stat-label">Años</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">5+</span>
+              <span class="stat-label">Años de experiencia</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">1</span>
+              <span class="stat-label">Empresa propia</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">∞</span>
+              <span class="stat-label">Ganas de aprender</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-skills">
+          <h3>En lo que trabajo</h3>
+          <div class="skills-tags">
+            <span class="skill-tag">Ciberseguridad</span>
+            <span class="skill-tag">Desarrollo Web</span>
+            <span class="skill-tag">Sistemas Informáticos</span>
+            <span class="skill-tag">Emprendimiento</span>
+            <span class="skill-tag">Libertad Financiera</span>
+            <span class="skill-tag">Consultoría Técnica</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact CTA -->
+  <section class="contact-cta">
+    <div class="container">
+      <div class="cta-content">
+        <h2>¿Trabajamos juntos?</h2>
+        <p>Estoy disponible para proyectos de ciberseguridad, administración de sistemas, desarrollo web y consultoría técnica.</p>
+        <div class="cta-buttons">
+          <a href="contacto.html" class="btn btn-primary">Contactar</a>
+          <a href="mailto:mikelbarajaswork@gmail.com" class="btn btn-secondary">Email directo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="blog-footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-about">
+          <h3>Mikel Barajas</h3>
+          <p>Técnico especializado en sistemas informáticos y ciberseguridad. Emprendedor y apasionado por la tecnología.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Enlaces</h4>
+          <ul>
+            <li><a href="sobre-mi.html">Mi Historia</a></li>
+            <li><a href="proyectos.html">Proyectos</a></li>
+            <li><a href="formacion.html">Formación</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h4>Sígueme</h4>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/mikel-barajas-15b700399/" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M4.98 3.5C3.34 3.5 2 4.88 2 6.54c0 1.62 1.29 3 2.98 3s2.98-1.38 2.98-3c0-1.66-1.29-3.04-2.98-3.04zM2 8.95h6v12.05H2V8.95zm7.5 0h5.75v1.68h.08c.8-1.5 2.76-3.08 5.68-3.08 6.07 0 7.18 4 7.18 9.18v10.12h-6V17.75c0-2.17-.04-4.96-3.02-4.96-3.03 0-3.49 2.37-3.49 4.8v8.46h-6V8.95z"/></svg>
+            </a>
+            <a href="https://www.instagram.com/mikel_portu/" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M7.75 2h8.5A5.75 5.75 0 0122 7.75v8.5A5.75 5.75 0 0116.25 22h-8.5A5.75 5.75 0 012 16.25v-8.5A5.75 5.75 0 017.75 2zm0 2A3.75 3.75 0 004 7.75v8.5A3.75 3.75 0 007.75 20h8.5a3.75 3.75 0 003.75-3.75v-8.5A3.75 3.75 0 0016.25 4h-8.5zM12 7a5 5 0 110 10 5 5 0 010-10zm0 2.75a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5zm3.5-2.5a1 1 0 110 2 1 1 0 010-2z"/></svg>
+            </a>
+            <a href="https://x.com/Mikel_portu?t=FWmPD4FanWYtQRBfFVQwzg&s=09" target="_blank" rel="noopener" aria-label="Twitter">
+              <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M23 3a10.9 10.9 0 01-3.14.86A4.48 4.48 0 0022.43.36a9.07 9.07 0 01-2.88 1.1 4.52 4.52 0 00-7.7 4.13 12.84 12.84 0 01-9.3-4.71 4.51 4.51 0 001.4 6.05 4.48 4.48 0 01-2.05-.57v.06a4.5 4.5 0 003.62 4.42 4.49 4.49 0 01-2.04.08 4.53 4.53 0 004.22 3.15 9.06 9.06 0 01-5.6 1.94A9.34 9.34 0 010 19.54a12.75 12.75 0 006.92 2.03c8.3 0 12.85-6.87 12.85-12.85 0-.2 0-.39-.02-.58A9.2 9.2 0 0023 3z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Mikel Barajas. Todos los derechos reservados.</p>
+        <p>Diseño y desarrollo: Mikel Barajas</p>
+        <p>white Basque Country🔥</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
