@@ -1,277 +1,257 @@
-# 🌟 Portfolio Personal - Mikel Barajas
+# Maik & Co. — Dossier de Presentación para Emprendedores
 
-## 📋 Descripción del Proyecto
+## Resumen Ejecutivo
 
-Portfolio web personal profesional que muestra las habilidades técnicas, experiencia en libertad financiera y trayectoria profesional de Mikel Barajas. El sitio incluye efectos visuales únicos, animaciones atractivas, un diseño completamente responsive y una historia personal detallada desde Portugalete, Bizkaia.
-
-## 🚀 Características Principales
-
-### ✨ **Efectos Visuales Únicos por Página**
-- **Index**: Efectos de flotación suave y partículas flotantes
-- **Blog**: Animaciones de deslizamiento desde la izquierda
-- **Mi Historia**: Timeline interactivo con efectos de hover
-- **Habilidades**: Efectos de escala y hover dinámicos
-- **Formación**: Rotación sutil y efectos de brillo
-- **Contacto**: Efectos de pulso y gradientes animados
-
-### 🎨 **Sistema de Sombras Sutiles**
-- **Sombra Sutil**: Para elementos ligeros
-- **Sombra Media**: Para tarjetas principales
-- **Sombra Fuerte**: Para elementos destacados
-- **Efectos de Brillo**: Animaciones de shine al hover
-
-### 📱 **Diseño Completamente Responsive**
-- Optimizado para móviles, tablets y desktop
-- Navegación adaptativa
-- Efectos optimizados por dispositivo
-
-## 🏗️ Estructura del Proyecto
-
-```
-📁 Pagina personal/
-├── 📄 index.html              # Página principal
-├── 📄 sobre-mi.html           # Blog personal (historia y libertad financiera)
-├── 📄 mi-historia.html        # Historia personal detallada desde Portugalete
-├── 📄 habilidades.html        # Habilidades técnicas y financieras
-├── 📄 formacion.html          # Formación académica y autodidacta
-├── 📄 proyectos.html          # Proyectos realizados
-├── 📄 contacto.html           # Página de contacto completa
-├── 📁 css/
-│   ├── 📄 style.css           # Estilos principales y generales
-│   ├── 📄 mi-historia.css     # Estilos específicos de historia personal
-│   ├── 📄 blog.css            # Estilos específicos del blog
-│   └── 📄 Formacion.css       # Estilos específicos de formación
-├── 📁 js/
-│   └── 📄 script.js           # JavaScript y animaciones
-├── 📁 Img/                    # Imágenes y recursos
-│   ├── 📁 banner/             # Banners y fondos
-│   ├── 📁 favicon/            # Iconos del sitio
-│   ├── 📁 Foto mia/           # Fotos personales
-│   ├── 📁 iconos/             # Iconos temáticos
-│   └── 📁 Logo/               # Logotipos
-├── 📁 Curriculum/             # Documentos PDF
-└── 📁 Presentacion PRoyecto/  # Presentaciones de proyectos
-```
-
-## 🎯 Páginas del Sitio
-
-### 🏠 **Index (Página Principal)**
-- **Hero Section**: Presentación principal con efectos de flotación
-- **Blog**: Resumen de la historia personal con partículas flotantes
-- **Habilidades**: Grid de habilidades con efectos de escala
-- **Proyectos**: Showcase de proyectos con modal interactivo
-- **Formación**: Timeline de formación con efectos de rotación
-- **Contacto**: Sección de contacto con efectos de pulso
-
-### 📝 **Blog (sobre-mi.html)**
-- **Historia Personal**: Timeline de transformación de la adversidad a la libertad financiera
-- **Sección Portugalete**: Orígenes en Portugalete, Bizkaia con características visuales
-- **Libertad Financiera**: 4 pilares de conocimiento financiero
-- **Proyectos Futuros**: Visiones y planes de crecimiento
-- **Efectos**: Animaciones de deslizamiento y sombras dinámicas
-
-### 🏘️ **Mi Historia (mi-historia.html)**
-- **Hero con Estadísticas**: 26 años, origen en Portugalete, 5+ años de experiencia
-- **Sección Portugalete**: Características de la villa costera vasca
-- **Timeline Interactivo**: 
-  - 1998-2014: Infancia y adolescencia en Portugalete
-  - 2015-2019: Formación técnica en Somorrostro
-  - 2019-2024: Evolución hacia la informática
-  - 2024-Presente: Desarrollo de proyectos reales
-- **Efectos**: Hover effects, animaciones de entrada, timeline visual
-
-### 💼 **Habilidades (habilidades.html)**
-- **Sistemas Operativos**: Windows, Linux, administración de servidores
-- **Software Técnico**: Office, AutoCAD, Eplan
-- **Ciberseguridad**: Nmap, Wireshark, Kali Linux
-- **Libertad Financiera**: Inversiones, bienes raíces, emprendimiento
-- **Habilidades Blandas**: Trabajo en equipo, resolución de problemas
-- **Efectos**: Escala al hover y sombras sutiles
-
-### 🎓 **Formación (formacion.html)**
-- **Libertad Financiera**: Formación autodidacta y experiencia como formador
-- **Ciberseguridad**: Curso superior en Deusto Formación
-- **Sistemas Informáticos**: Centro de Formación Somorrostro
-- **Sistemas Electrotécnicos**: Formación técnica especializada
-- **Efectos**: Rotación sutil y sombras fuertes
-
-### 🚀 **Proyectos (proyectos.html)**
-- **Maik&Co.**: Plataforma de conexión de servicios profesionales
-- **Portfolio Web**: Desarrollo de sitio web personal
-- **Efectos**: Animaciones de entrada y efectos de brillo
-
-### 📞 **Contacto (contacto.html)**
-- **Información de Contacto**: Email, LinkedIn, CV
-- **Formulario Avanzado**: Integración con FormSubmit.co
-- **Servicios**: Detalle de servicios ofrecidos
-- **Efectos**: Gradientes animados y efectos de pulso
-
-## 🛠️ Tecnologías Utilizadas
-
-### **Frontend**
-- **HTML5**: Estructura semántica
-- **CSS3**: Estilos avanzados con Flexbox y Grid
-- **JavaScript**: Interactividad y animaciones
-- **AOS (Animate On Scroll)**: Animaciones de scroll
-- **Font Awesome**: Iconografía
-
-### **Efectos y Animaciones**
-- **CSS Keyframes**: Animaciones personalizadas
-- **Hover Effects**: Efectos interactivos
-- **Scroll Animations**: Animaciones basadas en scroll
-- **Gradient Animations**: Gradientes dinámicos
-- **Particle Effects**: Efectos de partículas
-- **Timeline Effects**: Efectos de línea de tiempo
-
-### **Responsive Design**
-- **Mobile First**: Diseño optimizado para móviles
-- **Breakpoints**: 480px, 768px, 1024px
-- **Flexible Grid**: Sistema de grid adaptativo
-
-## 🎨 Sistema de Diseño
-
-### **Colores**
-- **Primario**: #0066ff (Azul corporativo)
-- **Secundario**: #2c3e50 (Gris oscuro)
-- **Texto**: #333333 (Gris oscuro)
-- **Fondo Claro**: #f8f9fa (Gris muy claro)
-- **Fondo**: #ffffff (Blanco)
-
-### **Tipografía**
-- **Fuente Principal**: Poppins (Google Fonts)
-- **Pesos**: 400 (Regular), 600 (Semi-bold), 700 (Bold)
-
-### **Efectos Visuales**
-- **Sombras**: Sistema de 3 niveles (sutil, media, fuerte)
-- **Animaciones**: Transiciones suaves de 0.3s
-- **Hover States**: Transformaciones y cambios de color
-- **Gradientes**: Animaciones de gradiente de 8s
-
-## 📱 Responsive Breakpoints
-
-```css
-/* Móvil */
-@media (max-width: 480px) { ... }
-
-/* Tablet */
-@media (max-width: 768px) { ... }
-
-/* Desktop */
-@media (min-width: 769px) { ... }
-```
-
-## 🚀 Instalación y Uso
-
-1. **Clonar el repositorio**:
-   ```bash
-   git clone [url-del-repositorio]
-   cd Pagina-personal
-   ```
-
-2. **Abrir en navegador**:
-   - Abrir `index.html` en cualquier navegador moderno
-   - No requiere servidor local para funcionar
-
-3. **Personalización**:
-   - Editar contenido en archivos HTML
-   - Modificar estilos en archivos CSS específicos
-   - Ajustar animaciones en `js/script.js`
-
-## 📊 Características Técnicas
-
-### **Optimización**
-- **Lazy Loading**: Carga diferida de imágenes
-- **CSS Modular**: Estilos organizados por página
-- **JavaScript Throttling**: Optimización de eventos de scroll
-- **Mobile Performance**: Efectos optimizados para móviles
-
-### **Accesibilidad**
-- **ARIA Labels**: Etiquetas de accesibilidad
-- **Alt Text**: Texto alternativo para imágenes
-- **Keyboard Navigation**: Navegación por teclado
-- **Color Contrast**: Contraste de colores accesible
-
-### **SEO**
-- **Meta Tags**: Etiquetas meta optimizadas
-- **Semantic HTML**: Estructura semántica
-- **Open Graph**: Metadatos para redes sociales
-- **Structured Data**: Datos estructurados
-
-## 🎯 Funcionalidades Especiales
-
-### **Modal Interactivo**
-- Modal para información de proyectos
-- Cierre con tecla Escape o click fuera
-- Animaciones de entrada y salida
-
-### **Formulario de Contacto**
-- Integración con FormSubmit.co
-- Validación de campos requeridos
-- Redirección automática tras envío
-
-### **Timeline Interactivo**
-- Timeline de formación con efectos de rotación
-- Timeline de historia personal con hover effects
-- Módulos expandibles con JavaScript
-- Animaciones de entrada escalonadas
-
-### **Efectos de Partículas**
-- Partículas flotantes en secciones principales
-- Animación continua de 20s
-- Efecto visual sutil y profesional
-
-### **Sección Portugalete**
-- Características visuales de la villa costera
-- Estadísticas personales interactivas
-- Efectos hover en elementos mini
-- Diseño responsive optimizado
-
-## 📈 Rendimiento
-
-- **Tiempo de Carga**: < 3 segundos
-- **Lighthouse Score**: 90+ en todas las métricas
-- **Mobile Friendly**: 100% compatible con móviles
-- **Cross-browser**: Compatible con todos los navegadores modernos
-
-## 🔧 Mantenimiento
-
-### **Actualización de Contenido**
-- Editar archivos HTML para cambiar texto
-- Modificar archivos CSS específicos para ajustar estilos
-- Actualizar `js/script.js` para nuevas funcionalidades
-
-### **Optimización Continua**
-- Monitorear rendimiento con herramientas de desarrollo
-- Optimizar imágenes antes de subir
-- Mantener dependencias actualizadas
-
-## 🏘️ Historia Personal
-
-### **Orígenes en Portugalete, Bizkaia**
-- Nacido en 1998 en una villa costera del País Vasco
-- Influencia de la cultura vasca y tradición industrial
-- Desarrollo de curiosidad tecnológica desde pequeño
-- Valores de trabajo duro e innovación
-
-### **Trayectoria Profesional**
-- **2015-2019**: Formación técnica en Somorrostro
-- **2019-2024**: Especialización en sistemas informáticos
-- **2024-Presente**: Desarrollo de proyectos reales como Maik&Co.
-
-## 📞 Contacto
-
-- **Email**: mikelbarajaswork@gmail.com
-- **LinkedIn**: [Mikel Barajas](https://www.linkedin.com/in/mikel-barajas-15b700399/)
-- **Instagram**: [@mikel_portu](https://www.instagram.com/mikel_portu/)
-- **Twitter**: [@Mikel_portu](https://x.com/Mikel_portu)
-- **Portfolio**: [Ver sitio web](https://tu-dominio.com)
-
-## 📄 Licencia
-
-Este proyecto es de uso personal y profesional. Todos los derechos reservados.
+Maik & Co. es una plataforma que conecta propietarios de viviendas con profesionales verificados (reformas, mantenimiento, oficios) de forma segura, transparente y rápida. Nuestra propuesta une una experiencia digital excelente con un proceso de verificación y reputación justo, reduciendo fricciones para ambas partes y elevando el estándar del sector.
 
 ---
 
-**Desarrollado con ❤️ por Mikel Barajas**
+## Nuestra Historia
 
-*Última actualización: Enero 2025*
+Nacimos de una necesidad real: encontrar profesionales fiables para el hogar continúa siendo difícil, lento y, a menudo, incierto. Tras vivirlo en primera persona —incumplimientos, sobrecostes y falta de transparencia— decidimos construir una solución que pusiera a las personas en el centro.
+
+Empezamos validando el problema con entrevistas y pruebas de concepto locales. La respuesta fue clara: clientes piden confianza y control; profesionales piden visibilidad y herramientas simples que no les quiten tiempo. Con esa convicción, prototipamos una experiencia cuidada, centrada en la conversión y en la calidad de los perfiles.
+
+---
+
+## Problema
+
+- Búsqueda ineficiente y desinformación al contratar profesionales del hogar.
+- Falta de garantías: tiempos, calidad, presupuestos y comunicación.
+- Profesionales con poca visibilidad y demasiada burocracia digital.
+
+## Nuestra Solución
+
+- Directorio curado de profesionales verificados y valorados.
+- Matching ágil por ubicación, especialidad y reputación.
+- Flujo claro de solicitud, propuesta, aceptación y seguimiento.
+- Herramientas para profesionales: perfil, reseñas, gestión de oportunidades.
+
+---
+
+## Propuesta de Valor
+
+- Para clientes: confianza, claridad y rapidez en la contratación.
+- Para profesionales: nuevos clientes de calidad y reputación creciente.
+- Para el ecosistema: estandarización, transparencia y mejores experiencias.
+
+---
+
+## Mercado y Oportunidad
+
+- Mercado de servicios para el hogar en España: grande y fragmentado, con digitalización acelerada.
+- Tendencia: usuarios esperan experiencias tipo marketplace con garantías y reviews reales.
+- Oportunidad: ser la referencia de confianza local con foco en calidad y UX superior.
+
+---
+
+## Competencia y Diferenciación
+
+- Competidores: directorios genéricos, clasificados, apps de servicios on-demand.
+- Diferenciación: curación/validación de perfiles, experiencia de usuario clara, comunicación transparente, y foco en reputación y retención.
+
+---
+
+## Modelo de Negocio
+
+### Para Clientes
+
+**Plan Básico (Gratis)**
+- Acceso completo a profesionales verificados
+- Búsqueda y filtros avanzados
+- Sistema de valoraciones y reseñas
+- Comisión del 3% por servicio
+- Pagos seguros
+- Soporte por email
+
+**Plan Avanzado (9€/mes)**
+- Todo lo del plan básico
+- Sin comisiones por servicio
+- Prioridad en respuestas de profesionales
+- Acceso a profesionales Premium
+- Soporte prioritario 24/7
+- Historial ilimitado de servicios
+- Descuentos exclusivos
+
+**Plan Premium (19€/mes)**
+- Todo lo del plan Avanzado
+- Hasta 5 perfiles familiares
+- Sin comisiones para todos los perfiles
+- Gestor de cuenta dedicado
+- Programación avanzada
+- Reportes de gastos
+- Asistencia personalizada
+
+### Para Profesionales
+
+**Plan Básico (Gratis)**
+- Perfil profesional básico
+- Hasta 5 servicios activos
+- Comisión del 15% por servicio
+- Soporte por email
+- Estadísticas básicas
+
+**Plan Premium (29€/mes)**
+- Todo lo del plan básico
+- Servicios ilimitados
+- Comisión reducida al 10%
+- Soporte prioritario 24/7
+- Perfil destacado en búsquedas
+- Estadísticas avanzadas
+- Marketing personalizado
+
+**Plan Empresarial (99€/mes)**
+- Todo lo del plan Premium
+- Comisión mínima del 8%
+- Múltiples perfiles profesionales
+- Gestor de cuenta dedicado
+- API de integración
+- Reportes personalizados
+- Acceso a eventos exclusivos
+
+### Ingresos de la Plataforma (Maik & Co.)
+
+**Ingresos de Clientes:**
+- **Plan Básico (Gratis)**: Comisión del 3% sobre cada servicio contratado
+- **Plan Avanzado (9€/mes)**: Suscripción mensual de 9€ (sin comisiones por servicio)
+- **Plan Premium (19€/mes)**: Suscripción mensual de 19€ (sin comisiones por servicio)
+
+**Ingresos de Profesionales:**
+- **Plan Básico (Gratis)**: Comisión del 15% sobre cada servicio completado
+- **Plan Premium (29€/mes)**: Suscripción mensual de 29€ + comisión del 10% por servicio
+- **Plan Empresarial (99€/mes)**: Suscripción mensual de 99€ + comisión del 8% por servicio
+
+**Modelo de Ingresos:**
+- **Doble fuente de ingresos**: Suscripciones recurrentes (MRR) + comisiones por transacción
+- **Escalabilidad**: A mayor volumen de servicios, mayor ingreso por comisiones
+- **Incentivos alineados**: Planes premium reducen comisiones pero aumentan suscripciones
+- **Ingresos complementarios**: Verificación premium, posicionamiento destacado, servicios financieros (a futuro)
+
+**Ejemplo de Ingresos Mensuales:**
+- 100 clientes Premium (19€/mes) = 1.900€/mes
+- 50 profesionales Premium (29€/mes) = 1.450€/mes
+- 200 servicios básicos clientes (3% comisión, promedio 500€) = 3.000€/mes
+- 150 servicios básicos profesionales (15% comisión, promedio 500€) = 11.250€/mes
+- **Total estimado**: ~17.600€/mes (con 100 clientes premium, 50 profesionales premium y volumen de servicios)
+
+---
+
+## Tracción y Validación (temprana)
+
+- Landing y prototipo funcional en producción.
+- Flujo de registro/login, perfiles y contenidos legales listos.
+- Interés inicial de profesionales locales y feedback positivo sobre la UX.
+
+KPIs tempranos (objetivo 3-6 meses):
+- 500-1.000 usuarios registrados, 100-200 profesionales activos.
+- 200-400 solicitudes de servicio, tasa de respuesta >60%.
+
+---
+
+## Roadmap
+
+1. MVP transaccional: solicitud-propuesta-aceptación, mensajería y agenda.
+2. Verificación avanzada y scoring reputacional.
+3. Pagos y escrow; facturación y recibos.
+4. App móvil y expansión geográfica.
+
+---
+
+## Producto y Tecnología (actual)
+
+- Frontend responsive con HTML, CSS y JavaScript moderno.
+- Sistema de modales para login/registro, validaciones y estado de conexión.
+- Arquitectura preparada para conectar con API real (módulos `config.js` y `api.js`).
+- Páginas legales, blog, FAQ y narrativa de marca.
+
+Prioridades técnicas próximas:
+- Integración API (auth real, perfiles, matching, mensajería).
+- Panel profesional y flujo de oportunidades.
+- Observabilidad y métricas de producto.
+
+---
+
+## Seguridad, Legal y Confianza
+
+- Política de privacidad, cookies y términos publicados.
+- Diseño orientado a protección de datos y buenas prácticas UX.
+- Verificación progresiva de profesionales y sistema de reseñas anti-fraude (planificado).
+
+---
+
+## Equipo
+
+- Fundadores con experiencia en producto digital, diseño y operaciones.
+- Red de profesionales piloto para validación continua.
+
+Necesidades de contratación (próximos 6-12 meses):
+- Desarrollador/a full‑stack, growth y atención al cliente.
+
+---
+
+## Métricas Clave
+
+- Adquisición: CAC, conversión a registro, % profesionales verificados.
+- Calidad: tiempo a primera respuesta, NPS, reseñas ≥4,5.
+- Retención: repetición de clientes y tasa de recomendación.
+
+---
+
+## Riesgos y Mitigaciones
+
+- Desintermediación: valor añadido en reputación, garantías y soporte.
+- Calidad de la oferta: curación, verificación y reviews.
+- Estacionalidad: campañas y verticales complementarias.
+
+---
+
+## Financiación y Uso de Fondos
+
+- Objetivo: acelerar desarrollo del MVP transaccional y adquisición local.
+- Uso: 60% producto/tech, 25% marketing local, 15% operaciones/soporte.
+
+---
+
+## Contacto
+
+- Email: info@maikandco.com
+- Teléfono: +34 900 123 456
+- Dirección: Calle Principal 123, 48001 Bilbao, España
+- Redes: Facebook, Instagram, LinkedIn, TikTok
+
+---
+
+## Anexo Técnico (README resumido)
+
+### Estructura del Proyecto
+
+```
+Maik & co._Pagina_web_plataforma/
+├── index.html
+├── profesional.html
+├── plataforma-cliente.html
+├── perfil-cliente.html
+├── blog.html
+├── faq.html
+├── nuestra-historia.html
+├── terminos.html
+├── privacidad.html
+├── cookies.html
+├── css/
+├── js/
+└── img/
+```
+
+### Tecnologías
+
+- HTML5, CSS3 (responsive, variables), JavaScript ES6+.
+- `js/config.js` (config central), `js/api.js` (cliente API), `js/main.js` (UX/modales).
+
+### Estado
+
+- Autenticación por modales (demo), validaciones, notificaciones y manejo de red.
+- Legal y contenidos completos. Listo para conectar backend.
+
+---
+
+© 2025 Maik & Co. — Unimos personas, solucionamos problemas. 🚀
